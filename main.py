@@ -1,12 +1,4 @@
-"""
-AI Tool Launch News Scraper
-Notun AI tool launch hole tar khobor Google News RSS + onno RSS feed theke dhore.
 
-Install:  pip install feedparser requests
-Run once: python ai_launch_news_scraper.py
-Run loop: python ai_launch_news_scraper.py --watch 30     (prothi 30 minute e check)
-Telegram: TELEGRAM_TOKEN ar TELEGRAM_CHAT_ID environment variable set korle alert jabe
-"""
 import argparse, csv, hashlib, json, os, re, time
 from datetime import datetime
 from urllib.parse import quote_plus
